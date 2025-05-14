@@ -1,0 +1,29 @@
+---
+import "../styles/global.css";
+import Cards from "../components/cards.astro";
+import { testimonials } from "../data/testimonials.ts";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+
+    <title>Testimonial grid</title>
+  </head>
+  <body class="bg-Grey-100 barlow-500">
+
+    <main class="py-16 px-8 grid grid-cols-1 gap-6 sm:grid-cols-3 md:grid-cols-4 md:place-content-center md:w-7xl md:mx-auto">
+ 
+
+{testimonials.map(t =>
+			<Cards {...t} />
+		)}
+		
+		
+		
+    </main>
+  </body>
+</html>
+
