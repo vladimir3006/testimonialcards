@@ -12,7 +12,7 @@ export interface Testimonial {
 
 export const testimonials: Testimonial[] = [
   {
-    avatar: "/images/image-daniel.jpg",
+    avatar: "/testimonialcards/images/image-daniel.jpg",
     name: 'Daniel Clifford',
     role: 'Verified Graduate',
     title:
@@ -20,11 +20,11 @@ export const testimonials: Testimonial[] = [
     quote: `I was an EMT for many years before I joined the bootcamp. I’ve been looking to make a transition and have heard some people who had an amazing experience here. I signed up for the free intro course and found it incredibly fun! I enrolled shortly thereafter. The next 12 weeks was the best – and most grueling – time of my life. Since completing the course, I’ve successfully switched careers, working as a Software Engineer at a VR startup.`,
     variant: 'bg-Purple-500',
     textcolor:"text-White",
-    span: "md:bg-[url(/images/bg-pattern-quotation.svg)] md:bg-no-repeat bg-position-[right_4rem_top] sm:col-start-1 sm:row-span-2 md:col-start-1 md:col-span-2 md:row-span-1"
+    span: "md:bg-[url(/testimonialcards/images/bg-pattern-quotation.svg)] md:bg-no-repeat bg-position-[right_4rem_top] sm:col-start-1 sm:row-span-2 md:col-start-1 md:col-span-2 md:row-span-1"
     
   },
   {
-    avatar: "/images/image-jonathan.jpg",
+    avatar: "/testimonialcards/images/image-jonathan.jpg",
     name: 'Jonathan Walters',
     role: 'Verified Graduate',
     title: 'The team was very supportive and kept me motivated',
@@ -35,7 +35,7 @@ export const testimonials: Testimonial[] = [
     
   },
   {
-    avatar: "/images/image-jeanette.jpg",
+    avatar: "/testimonialcards/images/image-jeanette.jpg",
     name: 'Jeanette Harmon',
     role: 'Verified Graduate',
     title: 'An overall wonderful and rewarding experience',
@@ -46,7 +46,7 @@ export const testimonials: Testimonial[] = [
   
   },
   {
-    avatar: "/images/image-patrick.jpg",
+    avatar: "/testimonialcards/images/image-patrick.jpg",
     name: 'Patrick Abrams',
     role: 'Verified Graduate',
     title:
@@ -57,7 +57,7 @@ export const testimonials: Testimonial[] = [
     span: " sm:col-start-3 sm:row-span-2 md:row-start-2 md:col-start-2 md:col-span-2 md:row-span-1"
   },
   {
-    avatar: "/images/image-kira.jpg",
+    avatar: "/testimonialcards/images/image-kira.jpg",
     name: 'Kira Whittle',
     role: 'Verified Graduate',
     title: 'Such a life-changing experience. Highly recommended!',
